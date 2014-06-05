@@ -204,9 +204,9 @@ ul, ol, dl {
 hr {
   height: 1px;
   line-height: 4px;
-  
+  margin-top: 80px;
   border: none;
-  background: transparent url('../images/hr.png') 50% ;
+  background: transparent url('../images/hr2.png') 50% ;
   
 }
 
