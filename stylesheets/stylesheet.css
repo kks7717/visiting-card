@@ -72,9 +72,8 @@ header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 48px;
-  color: #d5000d;
+  color: #303030;
   line-height: 1.2;
-  text-align: center;
 }
 
 header h2 {
@@ -91,15 +90,17 @@ header h2 {
 }
 
 .inner {
-  width: 1000px;
+  width: 620px;
   margin: 0 auto;
-  padding-top: 45px;
 }
 
 #container .inner img {
   max-width: 100%;
 }
 
+#downloads {
+  margin-bottom: 40px;
+}
 
 a.button {
   -moz-border-radius: 30px;
@@ -200,11 +201,11 @@ ul, ol, dl {
 
 hr {
   height: 1px;
-  line-height: 4px;
-  
+  line-height: 1px;
+  margin-top: 1em;
+  padding-bottom: 1em;
   border: none;
-  background: transparent url('../images/hr.png') 50% ;
-  
+  background: transparent url('../images/hr.png') 50% 0 no-repeat;
 }
 
 strong {
@@ -368,12 +369,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
-
-.sekcja {
-	width:620px;
-	height: 50px;
-    margin: 0 auto;
-    padding-top: 35px;
-}
-
-#map { height: 180px; }
