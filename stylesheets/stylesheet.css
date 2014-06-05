@@ -382,6 +382,8 @@ footer a:hover {
 #map { height: 600px;
 width: 1000px; }
 
-.slajdy {
+.wysrodkowanie {
+	width: 576px;
+	height: 420px;
 	margin: 0 auto;
 }
