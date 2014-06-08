@@ -332,10 +332,15 @@ footer a:hover {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 959px) {
+	
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	
+}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
@@ -352,10 +357,40 @@ footer a:hover {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+
+  .map {
+  	width: 400px;
+  }
+  .inner {
+    width: 74;
+    margin: 0 auto;
+  }
+  footer {
+  	display: block;
+  }
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+	header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+	.aaa { 
+    	font-size: 12px;
+    }
+  .inner {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 
 .sekcja {
 	width:620px;
