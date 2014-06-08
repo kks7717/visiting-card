@@ -41,10 +41,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 /* LAYOUT STYLES */
 body {
@@ -217,20 +214,13 @@ em {
   font-style: italic;
 }
 
-table {
-  width: 100%;
-  border: 1px solid #ebebeb;
-}
+
 
 th {
   font-weight: 500;
 }
 
-td {
-  border: 1px solid #ebebeb;
-  text-align: center; 
-  font-weight: 300;
-}
+
 
 form {
   background: #f2f2f2;
@@ -352,9 +342,7 @@ footer a:hover {
   header {
     padding-top: 10px;
     padding-bottom: 10px;
-    .aaa {
-    	font-size: 1px;
-    }
+    
   }
 
   .inner {
@@ -383,4 +371,46 @@ width: 1000px; }
 	width: 576px;
 	height: 420px;
 	margin: 0 auto;
+}
+
+.tabelki {
+   border: 1px solid black;
+   border-collapse: collapse;
+   background-color: #ffc;
+}
+.tabelki td {
+   border: 1px solid black;
+   padding: 5px;
+}
+.inny_wyglad {
+   background-color: orange;
+   vertical-align: top;
+   font-weight: bold;
+   color: darkred;
+}
+
+.tabelki2 {
+	border-collapse: collapse;
+	width: 200px; }
+.tabelki2 td {
+	border: 2px solid #000000;
+	padding: 5px;}
+.tabelki2 {
+	.header {
+       font-weight: bold;
+       background-color: #C0C0C0; }  
+}         
+             #pracownicy {
+	            border-collapse: collapse;
+	            width: 500px; }
+              #pracownicy td {
+	            border-width: 1px;
+	            border-style: solid;
+	            border-color: #000000;
+	            padding: 5px; }
+             #pracownicy .header {
+	            background-color: #dbe5f1;
+	            font-weight: bold; }
+            #pracownicy .emp {
+	            background-color: #f3f3f3; } 
 }
